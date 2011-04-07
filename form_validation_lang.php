@@ -19,6 +19,9 @@ $lang['regex_match']		= "%s 欄は、正しい形式ではありません。";
 $lang['matches']			= "%s 欄が %s 欄と一致しません。";
 $lang['is_natural']			= "%s 欄には、正の整数以外は入力できません。";
 $lang['is_natural_no_zero']	= "%s 欄には、0より大きい整数以外は入力できません。";
+$lang['decimal']			= "The %s field must contain a decimal number.";
+$lang['less_than']			= "The %s field must contain a number less than %s.";
+$lang['greater_than']		= "The %s field must contain a number greater than %s.";
 
 
 /* End of file form_validation_lang.php */
