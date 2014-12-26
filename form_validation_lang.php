@@ -37,33 +37,34 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['form_validation_required']		= 'The {field} field is required.';
-$lang['form_validation_isset']			= 'The {field} field must have a value.';
-$lang['form_validation_valid_email']		= 'The {field} field must contain a valid email address.';
-$lang['form_validation_valid_emails']		= 'The {field} field must contain all valid email addresses.';
-$lang['form_validation_valid_url']		= 'The {field} field must contain a valid URL.';
-$lang['form_validation_valid_ip']		= 'The {field} field must contain a valid IP.';
-$lang['form_validation_min_length']		= 'The {field} field must be at least {param} characters in length.';
-$lang['form_validation_max_length']		= 'The {field} field cannot exceed {param} characters in length.';
-$lang['form_validation_exact_length']		= 'The {field} field must be exactly {param} characters in length.';
-$lang['form_validation_alpha']			= 'The {field} field may only contain alphabetical characters.';
-$lang['form_validation_alpha_numeric']		= 'The {field} field may only contain alpha-numeric characters.';
+$lang['form_validation_required']		= '{field} 欄は必須です。';
+$lang['form_validation_isset']			= '{field} 欄は空欄にできません.';
+$lang['form_validation_valid_email']		= '{field} 欄には正しいEmailアドレスを入力する必要があります。';
+$lang['form_validation_valid_emails']		= '{field} 欄には正しいEmailアドレスを入力する必要があります。';
+$lang['form_validation_valid_emails']		= '{field} 欄には正しいEmailアドレスを入力する必要があります。';
+$lang['form_validation_valid_url']		= '{field} 欄には正しいURLを入力する必要があります。';
+$lang['form_validation_valid_ip']		= '{field} 欄には正しいIPアドレスを入力する必要があります。';
+$lang['form_validation_min_length']		= '{field} 欄は最低 {param} 文字以上でなければなりません。';
+$lang['form_validation_max_length']		= '{field} 欄は {param} 文字を超えてはいけません。';
+$lang['form_validation_exact_length']		= '{field} 欄は {param} 文字でなければなりません。';
+$lang['form_validation_alpha']			= '{field} 欄には、半角アルファベット以外は入力できません。';
+$lang['form_validation_alpha_numeric']		= '{field} 欄には、半角英数字以外は入力できません。';
 $lang['form_validation_alpha_numeric_spaces']	= 'The {field} field may only contain alpha-numeric characters and spaces.';
-$lang['form_validation_alpha_dash']		= 'The {field} field may only contain alpha-numeric characters, underscores, and dashes.';
-$lang['form_validation_numeric']		= 'The {field} field must contain only numbers.';
-$lang['form_validation_is_numeric']		= 'The {field} field must contain only numeric characters.';
-$lang['form_validation_integer']		= 'The {field} field must contain an integer.';
-$lang['form_validation_regex_match']		= 'The {field} field is not in the correct format.';
-$lang['form_validation_matches']		= 'The {field} field does not match the {param} field.';
+$lang['form_validation_alpha_dash']		= '{field} 欄には、半角英数字、アンダースコア(_)、ハイフン(-)以外は入力できません。';
+$lang['form_validation_numeric']		= '{field} 欄には、数字以外は入力できません。';
+$lang['form_validation_is_numeric']		= '{field} 欄には、数値以外は入力できません。';
+$lang['form_validation_integer']		= '{field} 欄には、整数以外は入力できません。';
+$lang['form_validation_regex_match']		= '{field} 欄は、正しい形式ではありません。';
+$lang['form_validation_matches']		= '{field} 欄が {param} と一致しません。';
 $lang['form_validation_differs']		= 'The {field} field must differ from the {param} field.';
 $lang['form_validation_is_unique'] 		= 'The {field} field must contain a unique value.';
-$lang['form_validation_is_natural']		= 'The {field} field must only contain digits.';
-$lang['form_validation_is_natural_no_zero']	= 'The {field} field must only contain digits and must be greater than zero.';
-$lang['form_validation_decimal']		= 'The {field} field must contain a decimal number.';
-$lang['form_validation_less_than']		= 'The {field} field must contain a number less than {param}.';
+$lang['form_validation_is_natural']		= '{field} 欄には、正の整数以外は入力できません。.';
+$lang['form_validation_is_natural_no_zero']	= '{field} 欄には、0より大きい整数以外は入力できません。';
+$lang['form_validation_decimal']		= '{field} 欄は10進数しか入力できません。';
+$lang['form_validation_less_than']		= '{field} 欄は {param} より小さい数しか入力できません。';
 $lang['form_validation_less_than_equal_to']	= 'The {field} field must contain a number less than or equal to {param}.';
-$lang['form_validation_greater_than']		= 'The {field} field must contain a number greater than {param}.';
+$lang['form_validation_greater_than']		= '{field} 欄は {param} より大きな数しか入力できません。';
 $lang['form_validation_greater_than_equal_to']	= 'The {field} field must contain a number greater than or equal to {param}.';
 
 /* End of file form_validation_lang.php */
-/* Location: ./system/language/english/form_validation_lang.php */
+/* Location: ./system/language/japanese/form_validation_lang.php */
