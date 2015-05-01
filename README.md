@@ -46,4 +46,12 @@ https://github.com/NEKOGET/ci_language/graphs/contributors
 ---------------
 CodeIgniterの開発に携わった全ての方と、日本語翻訳に関わった全ての方に感謝致します。
 
+本家による日本語言語ファイル
+-------------------------------
+https://github.com/bcit-ci/codeigniter3-translations
+
+本家にて、各言語の言語ファイルが作られています。
+CodeIgniter3の言語ファイルへの翻訳は本家へpull requestするのが良いでしょう！
+
+
 
